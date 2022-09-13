@@ -1,0 +1,59 @@
+* {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+}
+
+.city-main {
+      width: 45%;
+}
+
+.customers-main {
+      width: 350px;
+      height: 340px;
+      box-shadow: 0px 10px 19px rgba(66, 66, 66, 0.2);
+      border-radius: 6px;
+      background: #F6FCFA;
+}
+
+.customers-main:nth-child(2) {
+      background: rgba(113, 136, 170, 0.55);
+      position: relative;
+      top: 3rem;
+      margin-bottom: 5rem;
+
+}
+
+.hotel-main {
+      width: 350px;
+      border: 1px solid;
+}
+
+.hotel-main img {
+      width: 100%;
+}
+
+@media (max-width: 576px) {
+      .city-main {
+            width: 100%;
+      }
+
+      .customers-main {
+            width: 100%;
+      }
+
+      .customers-main:nth-child(2) {
+            background: rgba(113, 136, 170, 0.55);
+            position: relative;
+            top: 0rem;
+
+      }
+
+      .hotel-main {
+            width: 100%;
+      }
+
+      .hotel-main img {
+            width: 100%;
+      }
+}

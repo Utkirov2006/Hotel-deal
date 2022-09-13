@@ -1,0 +1,19 @@
+.cards-left {
+      width: 50%;
+
+}
+
+.cards-right {
+      height: 100%;
+      width: 50%;
+}
+
+@media (max-width: 576px) {
+      .cards-left {
+            width: 100%;
+      }
+
+      .cards-right {
+            width: 100%;
+      }
+}
